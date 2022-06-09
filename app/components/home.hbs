@@ -1,3 +1,10 @@
 <LinkTo @route="menu">Menu</LinkTo>
 
 <h1>Welcome!</h1>
+
+{{#if this.isCartOpen}}
+  <button type="button" {{on "click" this.closeCart}}>Close Cart</button>
+  <this.CartComponent />
+{{else}}
+  <button type="button" {{on "click" this.openCart}}>Open Cart</button>
+{{/if}}
