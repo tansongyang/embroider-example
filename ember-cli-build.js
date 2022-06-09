@@ -27,5 +27,6 @@ module.exports = function (defaults) {
     staticHelpers: true,
     staticModifiers: true,
     staticComponents: true,
+    splitAtRoutes: ['index', 'menu'],
   });
 };

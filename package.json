@@ -27,6 +27,7 @@
     "@ember/test-helpers": "^2.4.2",
     "@embroider/compat": "^1.7.1",
     "@embroider/core": "^1.7.1",
+    "@embroider/router": "^1.7.1",
     "@embroider/webpack": "^1.7.1",
     "@glimmer/component": "^1.0.4",
     "@glimmer/tracking": "^1.0.4",

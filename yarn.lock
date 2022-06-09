@@ -1290,6 +1290,16 @@
     resolve "^1.20.0"
     semver "^7.3.2"
 
+"@embroider/router@^1.7.1":
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@embroider/router/-/router-1.7.1.tgz#04fa8cdd0ea68df82dfd1991cd9e2a4e51ebc4d3"
+  integrity sha512-89LSADg3AEkWWlcyU9JHjBa+KA9lh+KdWporchAbjne1vwcKRp0rEK05SxvjAMPCEuWs/SdZqIRWWHK4oTwvYg==
+  dependencies:
+    "@ember/test-waiters" "^3.0.0"
+    "@embroider/macros" "1.7.1"
+    ember-cli-babel "^7.26.6"
+    ember-cli-htmlbars "^5.7.1"
+
 "@embroider/shared-internals@1.7.1", "@embroider/shared-internals@^1.0.0":
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-1.7.1.tgz#68afe26aa84e7431b858fcc1f1e0e8a5aaa7c90b"
