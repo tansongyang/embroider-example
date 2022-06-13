@@ -28,5 +28,6 @@ module.exports = function (defaults) {
     staticModifiers: true,
     staticComponents: true,
     splitAtRoutes: ['index', 'menu'],
+    staticAppPaths: ['lib'],
   });
 };
